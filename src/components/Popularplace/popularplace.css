@@ -1,0 +1,451 @@
+/* .popular {
+    padding: 50px 0px;
+}
+
+.popular .card {
+    padding: 5px;
+    border: none;
+    transition: all 0.5s ease 0s;
+    overflow: hidden;
+}
+
+
+.popular .card:hover {
+    transform: translateY(-10px);
+    transition: 0.2s ease-in;
+}
+
+
+
+.popular .card:hover .card-title {
+    color: var(--primaryClr)
+}
+
+.popular .card img {
+    transition: all 0.5s ease 0s;
+}
+
+.popular .card .card-body .badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-left: 8px;
+    font-size: var(--bodyText);
+}
+
+
+.popular .card .card-body .Riverbadge {
+    background-color: #ffebf5 !important;
+    color: #cf3881 !important;
+}
+
+.popular .card .card-body .wildlifebadge {
+    background-color: #4ba7fc !important;
+    color: #e6f7f4 !important;
+}
+
+.popular .card .card-body .Escortedbadge{
+    background-color: #e8edf1 !important;
+    color: #4f5e71 !important;
+}
+
+.popular .card .card-body .card-title {
+    background-color: #fc961b !important;
+    color: #ffffff !important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* popularplace.css */
+
+/* Main section styling */
+ .popular {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.main_heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ .main_heading h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+} 
+
+/* Card styling */
+ .card {
+    border: none;
+     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+    transition: transform 0.3s;
+} 
+
+ /* .card:hover {
+    transform: translateY(-5px);
+} */
+
+.popular .popular-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
+
+.popular {
+    padding: 50px 0px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.popular .card {
+    padding: 5px;
+    /* border: none; */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: all 0.5s ease 0s;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+
+.popular .card:hover {
+    transform: translateY(-10px);
+    transition: 0.2s ease-in;
+}
+
+
+
+
+
+
+ 
+
+ .card .card-body {
+    padding: 15px;
+    text-align: left;
+} 
+
+.card .card-body .bi-geo-alt {
+    color: #ff4d4f;
+    margin-right: 5px;
+}
+
+.card .card-body .text {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.card .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.card .card-body p {
+    margin: 5px 0;
+    color: #777;
+}
+
+/* Rating and reviews */
+.card .card-body .bi-star-fill {
+    color: #ffc107;
+    margin-right: 3px;
+}
+
+/* Category badges */
+.popular .card .card-body .badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: var(--bodyText);
+    font-weight: 500;
+    margin-left: 8px;
+    color: #fff;
+    justify-content: space-between;
+    white-space: 10px;
+
+
+
+}
+
+.Escortedbadge {
+    background-color: #e8edf1;
+    color: #007bff; /* Matching text color */
+    border-radius: 5px;
+}
+
+.Railbadge {
+    background-color: #7ad08e;
+    color: #28a745; /* Matching text color */
+    border-radius: 5px;
+}
+
+.Riverbadge {
+    background-color: #ffebf5;
+    color: #cf3881; /* Matching text color */
+    border-radius: 5px;
+}
+/* .popular .card .card-body .Riverbadge {
+    background-color: #ffebf5 !important;
+    color: #cf3881 !important;
+} */
+
+.Wildlifebadge {
+    background-color: #4ba7fc  ;
+    color: #e6f7f4; /* Matching text color */
+    border-radius: 5px;
+}
+
+.Tourbadge {
+    background-color: #6c757d;
+    color: #3b434b; /* Matching text color */
+    border-radius: 5px;
+}
+
+/* Card footer styling */
+.card-footer {
+    background: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-footer .text-decoration-line-through {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.card-footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.card-footer b {
+    color: #ff4d4f;
+}
+
+.card-footer .bi-clock {
+    color: #777;
+    margin-right: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main_heading h1 {
+        font-size: 2rem;
+    }
+
+    .card .card-img-top {
+        height: 150px;
+    }
+
+    .card .card-body p {
+        font-size: 0.8rem;
+    }
+
+    .card-footer p {
+        font-size: 0.8rem;
+    }
+} */
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Card Footer Styling */
+.popular .card .card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #f8f9fa; /* Adjust as needed */
+}
+
+.popular .card .card-footer p {
+    margin: 0.2rem 0;
+    font-size: 1rem;
+    color: #333; /* Adjust color as needed */
+}
+
+.popular .card .card-footer .text-decoration-line-through {
+    color: #999; /* Adjust color for original price if discounted */
+    font-size: 0.9rem; /* Slightly smaller size for strikethrough price */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Card styling */
+/* .popular .card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for card */
+/* .popular .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling */
+/* .popular .card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.popular .card:hover .card-img-top {
+    transform: scale(1.05);
+} */
+
+/* Footer section styling */
+/* .popular .card-footer {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+} */
+
+/* Price text */
+/* .popular .card-footer p {
+    font-weight: bold;
+    color: #007bff;
+    margin: 0;
+    transition: color 0.3s ease;
+} */
+
+/* .popular .card-footer p:hover {
+    color: #0056b3;
+} */
+
+/* Badge styling */
+/* .popular .badge {
+    margin-right: 4px;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #6c757d;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+} */
+
+/* .popular .badge:hover {
+    background-color: #5a6268;
+} */
+
+/* Icon and text styling */
+/* .popular .bi-geo-alt, .popular .bi-clock {
+    color: #ff5722;
+    margin-right: 4px;
+} */
+
+/* .popular .text {
+    font-size: 0.95rem;
+    color: #6c757d;
+    transition: color 0.3s ease;
+} */
+
+/* .popular .text:hover {
+    color: #343a40;
+} */
+
+/* Stack container for footer text */
+/* .popular .card-footer .justify-content-between p {
+    display: inline;
+    font-size: 0.9rem;
+}   */
