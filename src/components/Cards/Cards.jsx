@@ -1,38 +1,3 @@
-// import React from 'react'
-// import { Card } from 'react-bootstrap'
-// import { destinationsData } from '../../utils/data'
-// const Cards = ({destinations}) => {
-//   return (
-//     <div className='img-box' >
-
-//                       <Card>
-//                         <Card.Img
-//                           variant="top"
-//                           src={destinationsData.image}
-//                           className="img-fluid"
-//                           alt={destinations.name}
-//                         />
-//                         <Card.Title>{destinations.name}</Card.Title>
-//                         <span className='tours'>{destinations.tours}</span>
-//                       </Card>
-
-//                     </div>
-//   )
-// }
-
-// export default Cards
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 import React from "react";
