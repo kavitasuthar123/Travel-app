@@ -1,20 +1,3 @@
-//  import React from 'react'
-//  import "../Cards./cards.css"
-//  import { Card } from 'react-bootstrap' 
-//  const PopularCard = () => {
-//    return (
-//      <div>PopularCard</div>
-//    )
-//  }
- 
-//  export default PopularCard
-
-
-
-
-
-
-
 
 import React from 'react'
 import "../Cards/cards.css";
