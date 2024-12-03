@@ -1,36 +1,3 @@
-// import React from 'react'
-// import { NavLink } from 'react-bootstrap'
-// import { Breadcrumb } from 'react-bootstrap'
-
-// const Breadcrumbs = () => {
-//     return (
-//         <Breadcrumb>
-//             <Breadcrumbs.Item active>
-//                 <NavLink to="/"><i className='bi bi-house-door-fill'></i>
-//                     Home
-//                 </NavLink>
-//             </Breadcrumbs.Item>
-//         </Breadcrumb>
-//     )
-// }
-
-// export default Breadcrumbs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 import React from "react";
 import "../Breadcrumbs/breadcrumbs.css";
